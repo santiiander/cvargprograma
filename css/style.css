@@ -5,17 +5,19 @@ header {
     z-index: 100;
  }
 body{
-    background-color:#4D143C
+    background-color: #7B68EE;
 }
 
 .img_profile{
+    
     margin: 20px;
     background-image: url('/resources/img_profile.png');
     width: 169px;
     height: 169px;
-    border-radius: 60px;
+    border-radius: 100px;
     border-style: solid;
     margin-top: -225px;
+    border-color: #9966CC;
 }
 
 .banner{
@@ -23,29 +25,65 @@ body{
     width: 100%;
     height: 250px;
     z-index: 3;
+    border-radius: 30px;
 }
 
 .perfil{
-    margin-top: 80px;
+    margin-top: -190px;
     margin-left: 20px;
 }
-div{
+html{
     font-family: 'DM Sans', sans-serif ;
 }
 
 .contacto{
     margin: 20px;
+    margin-top: -217;
 
 }
 
 .ubicacion{
-    float: inline-start;
+    float: left;
+    margin-right: 3px;
 }
 .arroba{
     float:left;
+    margin-right: 3px;
 }
 
 .educacion{
     margin: 20px;
+}
 
+.celular{
+    float:left;
+    margin-right: 3px;
+}
+.linked{
+    float:left;
+    margin-right: 3px;
+    margin-top: 2px;
+}
+
+.cuadrado{
+    margin-top: 62px;
+    width: 380px;
+    height: 180px;
+    background-color: #4B0082;
+    border-radius: 30px;
+}
+h2{
+    margin-left: 90px;
+}
+
+.perfiltexto{
+    margin-top: -10px;
+}
+
+.cuadrado2 {
+    margin-top: 40px;
+    width: 380px;
+    height: 200px;
+    background-color: #4B0082;
+    border-radius: 30px;
 }
