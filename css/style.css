@@ -5,7 +5,8 @@ header {
     z-index: 100;
  }
 body{
-    background-color: #7B68EE;
+    background-image:url('/resources/peakpx\ \(1\).jpg');
+    background-position:150px;
 }
 
 .img_profile{
@@ -22,10 +23,12 @@ body{
 
 .banner{
     background-image: url('/resources/extra.png');
-    width: 100%;
+    width: 1325px;
     height: 250px;
     z-index: 3;
     border-radius: 30px;
+    border-style: double;
+    border-color: black;
 }
 
 .perfil{
@@ -38,7 +41,7 @@ html{
 
 .contacto{
     margin: 20px;
-    margin-top: -217;
+    margin-top: -217px;
 
 }
 
@@ -53,6 +56,7 @@ html{
 
 .educacion{
     margin: 20px;
+    margin-top: -500px;
 }
 
 .celular{
@@ -69,10 +73,14 @@ html{
     margin-top: 62px;
     width: 380px;
     height: 180px;
-    background-color: #4B0082;
+    background-color: #39117C;
+    border-style: double;
     border-radius: 30px;
+    border: 5px solid rgba(28,110,164,0.55);
+    border-radius: 32px;
+    
 }
-h2{
+.perfilp{
     margin-left: 90px;
 }
 
@@ -84,6 +92,91 @@ h2{
     margin-top: 40px;
     width: 380px;
     height: 200px;
-    background-color: #4B0082;
+    background-color: #39117C;
     border-radius: 30px;
+    border-style: groove;
+    border-color: #4B0082;
+    border: 5px solid rgba(28,110,164,0.55);
+    border-radius: 32px;
+}
+
+.textocontacto{
+    margin-left: 101px;
+}
+
+.cuadradotres{
+    margin-top: 30px;
+    width: 380px;
+    height: 500px;
+    background-color: #39117C;
+    border-radius: 30px;
+    border-style: groove;
+    border-color: #4B0082;
+    border: 5px solid rgba(28,110,164,0.55);
+    border-radius: 32px;
+}
+
+.nombre{
+    font-size:45px;;
+    color: white;
+    margin-top: -145px;
+    margin-right: 380px;
+    float:right
+
+}
+
+footer{
+    margin-top: 40px;
+}
+
+.cuadradolateral{
+    margin-top: -190px;
+    width: 500px;
+    height: 180px;
+    background-color: #39117C;
+    border-style: groove;
+    border-radius: 30px;
+    border-color: #4B0082;
+    margin-left: 406px;
+    border: 5px solid rgba(28,110,164,0.55);
+    border-radius: 32px;
+}
+
+.habilidades{
+    float: right;
+    margin-top: -196px;
+    margin-right: 432px;
+}
+
+.habilidadesh2{
+margin-left: 190px;
+margin-top: 36px;
+}
+
+.itemslist{
+    margin-top: -12px;
+}
+
+.cuadradolaboral{
+    width: 390px;
+    height: 400px;
+    background-color: #39117C;
+    border-style: groove;
+    border-radius: 30px;
+    border-color: #4B0082;
+    float: right;
+    margin-top:-932px;
+    border: 5px solid rgba(28,110,164,0.55);
+}
+
+.about{
+    float: right;
+    margin-top: -915px;
+    margin-right: 145px;
+}
+
+.aboutxt{
+    float: right;
+    margin-top: -873px;
+    margin-right: -37px;
 }
